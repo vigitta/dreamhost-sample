@@ -24,7 +24,7 @@ public class ScreenshotListener implements ITestListener,IAutocon {
 	@Override
 	public void onTestStart(ITestResult result) {
 		// TODO Auto-generated method stub
-		ExtentTestManager.startTest(result.getMethod().getMethodName());
+		ExtentTestManager.startTest(result.getMethod().getMethodName(),result.getMethod().getDescription());
 	}
 
 	@Override

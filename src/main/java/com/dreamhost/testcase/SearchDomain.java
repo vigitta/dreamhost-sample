@@ -9,7 +9,7 @@ public class SearchDomain extends BaseClass {
 	/*
 	 * Test Case 1: search a doamin  name  which is not available.
 	 */
-	@Test
+	@Test(description = "This method checks the domain availability, It deliberately checks a not available domain and verifies the error message, This test should pass")
 	public void  serachDomains_GoogleShouldNotShowAvailable() throws InterruptedException {
 		DreamHostPage dhpage= new DreamHostPage(driver);
 				dhpage.domain();
@@ -21,7 +21,7 @@ public class SearchDomain extends BaseClass {
 		
 	}
 	
-	@Test
+	@Test(description = "This method checks the domain availability, It deliberately checks an available domain and verifies the error message, This test should fail")
 	public void  serachDomains_UnregisteredDomainShouldShowAvailable() throws InterruptedException {
 		DreamHostPage dhpage= new DreamHostPage(driver);
 				dhpage.domain();

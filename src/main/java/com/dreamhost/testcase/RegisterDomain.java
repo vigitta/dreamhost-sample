@@ -6,6 +6,7 @@ import java.util.concurrent.TimeUnit;
 
 import org.apache.poi.EncryptedDocumentException;
 import org.testng.Assert;
+import org.testng.annotations.CustomAttribute;
 import org.testng.annotations.Test;
 
 import com.dreamhost.POMPage.BillingPage;
@@ -16,7 +17,7 @@ import com.dreamhost.POMPage.WordPressPage;
 
 
 public class RegisterDomain extends BaseClass {
-	@Test
+	@Test(description = "The method tests the navigation till the billing page from the start page. It also fills the payment page with a dummy information and is expecting a validation error at the credit card field")
 	public void registerDomain_ShouldFillAllTheInfoAndCardShouldReject() throws InterruptedException, EncryptedDocumentException, FileNotFoundException, IOException {
 		DreamHostPage dhpage= new DreamHostPage(driver);
 		dhpage.wordPress();
