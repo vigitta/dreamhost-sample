@@ -1,4 +1,4 @@
-##To run the project##
+###To run the project###
 
 1. Make sure you have downloaded the chrome driver/gecko driver from the following links
 	https://github.com/mozilla/geckodriver/releases
