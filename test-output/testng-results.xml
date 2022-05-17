@@ -2,12 +2,12 @@
 <testng-results ignored="2" total="5" passed="2" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-05-18T01:26:53 GST" name="Suite" finished-at="2022-05-18T01:27:45 GST" duration-ms="51798">
+  <suite started-at="2022-05-18T01:50:13 GST" name="Suite" finished-at="2022-05-18T01:51:08 GST" duration-ms="54584">
     <groups>
     </groups>
-    <test started-at="2022-05-18T01:26:53 GST" name="SanityTests" finished-at="2022-05-18T01:27:45 GST" duration-ms="51798">
+    <test started-at="2022-05-18T01:50:13 GST" name="SanityTests" finished-at="2022-05-18T01:51:08 GST" duration-ms="54584">
       <class name="com.dreamhost.testcase.SearchDomain">
-        <test-method is-config="true" signature="setProperty(java.lang.String,org.testng.ITestContext)[pri:0, instance:com.dreamhost.testcase.SearchDomain@942a29c]" started-at="2022-05-18T01:27:14 GST" name="setProperty" finished-at="2022-05-18T01:27:17 GST" duration-ms="3066" status="PASS">
+        <test-method is-config="true" signature="setProperty(java.lang.String,org.testng.ITestContext)[pri:0, instance:com.dreamhost.testcase.SearchDomain@942a29c]" started-at="2022-05-18T01:50:35 GST" name="setProperty" finished-at="2022-05-18T01:50:38 GST" duration-ms="3609" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -23,11 +23,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setProperty -->
-        <test-method signature="serachDomains_GoogleShouldNotShowAvailable()[pri:0, instance:com.dreamhost.testcase.SearchDomain@942a29c]" started-at="2022-05-18T01:27:17 GST" name="serachDomains_GoogleShouldNotShowAvailable" description="This method checks the domain availability, It deliberately checks a not available domain and verifies the error message, This test should pass" finished-at="2022-05-18T01:27:23 GST" duration-ms="6804" status="PASS">
+        <test-method signature="serachDomains_GoogleShouldNotShowAvailable()[pri:0, instance:com.dreamhost.testcase.SearchDomain@942a29c]" started-at="2022-05-18T01:50:38 GST" name="serachDomains_GoogleShouldNotShowAvailable" description="This method checks the domain availability, It deliberately checks a not available domain and verifies the error message, This test should pass" finished-at="2022-05-18T01:50:45 GST" duration-ms="7013" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- serachDomains_GoogleShouldNotShowAvailable -->
-        <test-method is-config="true" signature="setProperty(java.lang.String,org.testng.ITestContext)[pri:0, instance:com.dreamhost.testcase.SearchDomain@942a29c]" started-at="2022-05-18T01:27:24 GST" name="setProperty" finished-at="2022-05-18T01:27:27 GST" duration-ms="3634" status="PASS">
+        <test-method is-config="true" signature="setProperty(java.lang.String,org.testng.ITestContext)[pri:0, instance:com.dreamhost.testcase.SearchDomain@942a29c]" started-at="2022-05-18T01:50:46 GST" name="setProperty" finished-at="2022-05-18T01:50:50 GST" duration-ms="3909" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -43,7 +43,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setProperty -->
-        <test-method signature="serachDomains_UnregisteredDomainShouldShowAvailable()[pri:0, instance:com.dreamhost.testcase.SearchDomain@942a29c]" started-at="2022-05-18T01:27:27 GST" name="serachDomains_UnregisteredDomainShouldShowAvailable" description="his method checks the domain availability, It deliberately checks an available domain and verifies the error message, This test should fail" finished-at="2022-05-18T01:27:44 GST" duration-ms="16770" status="FAIL">
+        <test-method signature="serachDomains_UnregisteredDomainShouldShowAvailable()[pri:0, instance:com.dreamhost.testcase.SearchDomain@942a29c]" started-at="2022-05-18T01:50:50 GST" name="serachDomains_UnregisteredDomainShouldShowAvailable" description="This method checks the domain availability, It deliberately checks an available domain and verifies the error message, This test should fail" finished-at="2022-05-18T01:51:07 GST" duration-ms="17895" status="FAIL">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":"div.main-content.supports-fontface.l-pos-relative.u-overflow-hidden.c-c-w100:nth-child(3) section.t-center.section-hero.section-hero--domains.section-domain-navigation.p-bottom-0.u-overflow-hidden.p-top-16.blur:nth-child(1) div.container-l.p-x-1.p-x-4__m.p-x-10__l.m-bottom-10.z-1.l-pos-relative.p-bottom-3.t-bold:nth-child(2) form.form-standard.js-domain-search-init.js-domain-search-redirect.l-pos-relative.z-1 div.domain-results div.exact-tlds.tlds-section.slidein div.result-row.exact-result.sale-tld > p:nth-child(2)"}
@@ -52,9 +52,9 @@ For documentation on this error, please visit: https://selenium.dev/exceptions/#
 Build info: version: '4.1.4', revision: '535d840ee2'
 System info: host: 'D-MK001', ip: '192.168.1.36', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [54de103fe0d220900c43e93a8574e8be, findElement {using=css selector, value=div.main-content.supports-fontface.l-pos-relative.u-overflow-hidden.c-c-w100:nth-child(3) section.t-center.section-hero.section-hero--domains.section-domain-navigation.p-bottom-0.u-overflow-hidden.p-top-16.blur:nth-child(1) div.container-l.p-x-1.p-x-4__m.p-x-10__l.m-bottom-10.z-1.l-pos-relative.p-bottom-3.t-bold:nth-child(2) form.form-standard.js-domain-search-init.js-domain-search-redirect.l-pos-relative.z-1 div.domain-results div.exact-tlds.tlds-section.slidein div.result-row.exact-result.sale-tld > p:nth-child(2)}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 101.0.4951.54, chrome: {chromedriverVersion: 101.0.4951.41 (93c720db8323..., userDataDir: C:\Users\vsabu\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:54674}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:54674/devtoo..., se:cdpVersion: 101.0.4951.54, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 54de103fe0d220900c43e93a8574e8be]]>
+Command: [ba440c527a6ee61b5fec8a4cb1bd421f, findElement {using=css selector, value=div.main-content.supports-fontface.l-pos-relative.u-overflow-hidden.c-c-w100:nth-child(3) section.t-center.section-hero.section-hero--domains.section-domain-navigation.p-bottom-0.u-overflow-hidden.p-top-16.blur:nth-child(1) div.container-l.p-x-1.p-x-4__m.p-x-10__l.m-bottom-10.z-1.l-pos-relative.p-bottom-3.t-bold:nth-child(2) form.form-standard.js-domain-search-init.js-domain-search-redirect.l-pos-relative.z-1 div.domain-results div.exact-tlds.tlds-section.slidein div.result-row.exact-result.sale-tld > p:nth-child(2)}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 101.0.4951.54, chrome: {chromedriverVersion: 101.0.4951.41 (93c720db8323..., userDataDir: C:\Users\vsabu\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:61876}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:61876/devtoo..., se:cdpVersion: 101.0.4951.54, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: ba440c527a6ee61b5fec8a4cb1bd421f]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"div.main-content.supports-fontface.l-pos-relative.u-overflow-hidden.c-c-w100:nth-child(3) section.t-center.section-hero.section-hero--domains.section-domain-navigation.p-bottom-0.u-overflow-hidden.p-top-16.blur:nth-child(1) div.container-l.p-x-1.p-x-4__m.p-x-10__l.m-bottom-10.z-1.l-pos-relative.p-bottom-3.t-bold:nth-child(2) form.form-standard.js-domain-search-init.js-domain-search-redirect.l-pos-relative.z-1 div.domain-results div.exact-tlds.tlds-section.slidein div.result-row.exact-result.sale-tld > p:nth-child(2)"}
@@ -63,9 +63,9 @@ For documentation on this error, please visit: https://selenium.dev/exceptions/#
 Build info: version: '4.1.4', revision: '535d840ee2'
 System info: host: 'D-MK001', ip: '192.168.1.36', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [54de103fe0d220900c43e93a8574e8be, findElement {using=css selector, value=div.main-content.supports-fontface.l-pos-relative.u-overflow-hidden.c-c-w100:nth-child(3) section.t-center.section-hero.section-hero--domains.section-domain-navigation.p-bottom-0.u-overflow-hidden.p-top-16.blur:nth-child(1) div.container-l.p-x-1.p-x-4__m.p-x-10__l.m-bottom-10.z-1.l-pos-relative.p-bottom-3.t-bold:nth-child(2) form.form-standard.js-domain-search-init.js-domain-search-redirect.l-pos-relative.z-1 div.domain-results div.exact-tlds.tlds-section.slidein div.result-row.exact-result.sale-tld > p:nth-child(2)}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 101.0.4951.54, chrome: {chromedriverVersion: 101.0.4951.41 (93c720db8323..., userDataDir: C:\Users\vsabu\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:54674}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:54674/devtoo..., se:cdpVersion: 101.0.4951.54, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 54de103fe0d220900c43e93a8574e8be
+Command: [ba440c527a6ee61b5fec8a4cb1bd421f, findElement {using=css selector, value=div.main-content.supports-fontface.l-pos-relative.u-overflow-hidden.c-c-w100:nth-child(3) section.t-center.section-hero.section-hero--domains.section-domain-navigation.p-bottom-0.u-overflow-hidden.p-top-16.blur:nth-child(1) div.container-l.p-x-1.p-x-4__m.p-x-10__l.m-bottom-10.z-1.l-pos-relative.p-bottom-3.t-bold:nth-child(2) form.form-standard.js-domain-search-init.js-domain-search-redirect.l-pos-relative.z-1 div.domain-results div.exact-tlds.tlds-section.slidein div.result-row.exact-result.sale-tld > p:nth-child(2)}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 101.0.4951.54, chrome: {chromedriverVersion: 101.0.4951.41 (93c720db8323..., userDataDir: C:\Users\vsabu\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:61876}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:61876/devtoo..., se:cdpVersion: 101.0.4951.54, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: ba440c527a6ee61b5fec8a4cb1bd421f
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:78)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -85,7 +85,7 @@ at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:3
 at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
 at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
 at jdk.proxy2/jdk.proxy2.$Proxy20.getText(Unknown Source)
-at com.dreamhost.testcase.SearchDomain.serachDomains_UnregisteredDomainShouldShowAvailable(SearchDomain.java:32)
+at com.dreamhost.testcase.SearchDomain.serachDomains_UnregisteredDomainShouldShowAvailable(SearchDomain.java:34)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -117,11 +117,11 @@ at java.base/java.lang.Thread.run(Thread.java:831)
         </test-method> <!-- serachDomains_UnregisteredDomainShouldShowAvailable -->
       </class> <!-- com.dreamhost.testcase.SearchDomain -->
       <class name="com.dreamhost.testcase.RegisterDomain">
-        <test-method is-config="true" signature="InitializeBrowser()[pri:0, instance:com.dreamhost.testcase.RegisterDomain@7db12bb6]" started-at="2022-05-18T01:26:53 GST" name="InitializeBrowser" finished-at="2022-05-18T01:26:53 GST" duration-ms="6" status="PASS">
+        <test-method is-config="true" signature="InitializeBrowser()[pri:0, instance:com.dreamhost.testcase.RegisterDomain@7db12bb6]" started-at="2022-05-18T01:50:13 GST" name="InitializeBrowser" finished-at="2022-05-18T01:50:13 GST" duration-ms="9" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- InitializeBrowser -->
-        <test-method is-config="true" signature="setProperty(java.lang.String,org.testng.ITestContext)[pri:0, instance:com.dreamhost.testcase.RegisterDomain@7db12bb6]" started-at="2022-05-18T01:26:53 GST" name="setProperty" finished-at="2022-05-18T01:26:57 GST" duration-ms="4503" status="PASS">
+        <test-method is-config="true" signature="setProperty(java.lang.String,org.testng.ITestContext)[pri:0, instance:com.dreamhost.testcase.RegisterDomain@7db12bb6]" started-at="2022-05-18T01:50:13 GST" name="setProperty" finished-at="2022-05-18T01:50:18 GST" duration-ms="4536" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -137,11 +137,11 @@ at java.base/java.lang.Thread.run(Thread.java:831)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setProperty -->
-        <test-method signature="registerDomain_ShouldFillAllTheInfoAndCardShouldReject()[pri:0, instance:com.dreamhost.testcase.RegisterDomain@7db12bb6]" started-at="2022-05-18T01:26:57 GST" name="registerDomain_ShouldFillAllTheInfoAndCardShouldReject" description="The method tests the navigation till the billing page from the start page. It also fills the payment page with a dummy information and is expecting a validation error at the credit card field" finished-at="2022-05-18T01:27:13 GST" duration-ms="15997" status="PASS">
+        <test-method signature="registerDomain_ShouldFillAllTheInfoAndCardShouldReject()[pri:0, instance:com.dreamhost.testcase.RegisterDomain@7db12bb6]" started-at="2022-05-18T01:50:18 GST" name="registerDomain_ShouldFillAllTheInfoAndCardShouldReject" description="The method tests the navigation till the billing page from the start page. It also fills the payment page with a dummy information and is expecting a validation error at the credit card field" finished-at="2022-05-18T01:50:34 GST" duration-ms="16595" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- registerDomain_ShouldFillAllTheInfoAndCardShouldReject -->
-        <test-method is-config="true" signature="CleanUp()[pri:0, instance:com.dreamhost.testcase.RegisterDomain@7db12bb6]" started-at="2022-05-18T01:27:45 GST" name="CleanUp" finished-at="2022-05-18T01:27:45 GST" duration-ms="140" status="PASS">
+        <test-method is-config="true" signature="CleanUp()[pri:0, instance:com.dreamhost.testcase.RegisterDomain@7db12bb6]" started-at="2022-05-18T01:51:08 GST" name="CleanUp" finished-at="2022-05-18T01:51:08 GST" duration-ms="120" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CleanUp -->
