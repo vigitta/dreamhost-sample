@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="tests">
+<listeners>
+	<listener class-name="com.dreamhost.listeners.ScreenshotListener"></listener>
+</listeners>
+  <test name="SanityTests">
+   <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.dreamhost.testcase.RegisterDomain"/>
+      <class name="com.dreamhost.testcase.SearchDomain"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
